@@ -1,0 +1,72 @@
+.header{
+    height: 427px;
+    background-image:url("../images/banniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 91px;
+    background: #fff;
+}
+
+.header-navbar-link {
+    position: relative;
+    left: -300px;
+    width: 605px;
+}
+.header-navbar-link a{
+
+    text-decoration: none;
+    color: #9f9f9f;
+    margin-right: 80px;
+}
+.header-navbar-link a:hover{
+    color: #000;
+}
+.header-social-media{
+    position: relative;
+    right: -300px;
+}
+.header-social-media i{
+    padding: 15px 10px;
+    color: #9f9f9f;
+}
+.activated-link{
+    color: #000 !important;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.card-content{
+    margin-left: 20px;
+}
+.card-content h4{
+    font-size: 17px;
+    font-weight: 300;
+    opacity: .6;
+}
+.card-content h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.card-content p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 30px;
+}
+.aside {
+    position: relative;
+    left: 1100px;
+    bottom: 1140px;
+}
+.aside h3{
+    font-size: 25px;
+    font-weight: bold;
+}
